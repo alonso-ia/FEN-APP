@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #FBF6EC;
+  color: #27221C;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+}
+
+.font-fen { font-family: 'Fraunces', serif; }
+
+input, select, button { font-family: inherit; }
+
+button { cursor: pointer; border: none; background: none; }
+
+:focus-visible { outline: 2px solid #BD5B2E; outline-offset: 2px; }
